@@ -39,6 +39,6 @@ var albumMonet = {
         { title: 'London', duraton: '3:23' },
         { title: 'Rome', duration: '2:34' },
         { title: 'Vienna', duration: '4:43' },
-        { title: 'Prague', duraiton: '2:41' }
+        { title: 'Prague', duration: '2:41' }
     ]
 };
