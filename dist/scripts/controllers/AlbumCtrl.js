@@ -1,9 +1,9 @@
 (function() {
-    function AlbumCtrl($scope) {
-        $scope.currentAlbum = albumPicasso;
+    function AlbumCtrl(Fixtures) {
+        this.currentAlbum = Fixtures.getAlbum();
     }
     
     angular
         .module('blocJams')
-        .controller('AlbumCtrl', ['$scope', AlbumCtrl])
+        .controller('AlbumCtrl', ['Fixtures', AlbumCtrl])
 })();
